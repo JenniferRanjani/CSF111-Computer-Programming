@@ -10,7 +10,7 @@ int main()
     
     for (int j = 0; j<3; j++)
     
-        printf("\n The X1 is %d, X2 is %d Y is %d",*(*(x1+i)+j),y[i][j]);
+        printf("\n The X1 is %d Y is %d",*(*(x1+i)+j),y[i][j]);
 
     return 0;
 }
