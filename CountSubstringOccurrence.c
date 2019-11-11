@@ -21,9 +21,8 @@ i++;}
 else 
 break;
 strcpy(string,ptr);
-printf("%s \n",ptr);
 }
 
- printf("%s ,%d",string,i);
+ printf("The substring %s  occurs %d times",search,i);
 return 0;
 }
